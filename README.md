@@ -1,10 +1,10 @@
 # SafeWord
 
-A credential manager built for people who have both passwords and API keys — and treat them with the same discipline, not two different habits.
+A credential manager built for people who have both passwords and API keys: and treat them with the same discipline, not two different habits.
 
 ## The problem
 
-Most credential managers are built around website logins: username, password, maybe a note. Developers and technical operators also live with a second category — API keys, tokens, service credentials — that gets handled far more casually in practice, often sitting in plaintext files or chat history because the dedicated tools weren't built with that use case in mind.
+Most credential managers are built around website logins: username, password, maybe a note. Developers and technical operators also live with a second category - API keys, tokens, service credentials - that gets handled far more casually in practice, often sitting in plaintext files or chat history because the dedicated tools weren't built with that use case in mind.
 
 ## What it does
 
