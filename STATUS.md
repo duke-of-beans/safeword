@@ -1,13 +1,13 @@
 # SafeWord — STATUS
 
 Status: infra
-Last Updated: 2026-10-08
-Last Recorded: wo-20261008-9019e274 — Unplanned: backlog: stale plaintext aa_api_key in funding_config (key already in SafeWord)
+Last Updated: 2026-10-23
+Last Recorded: wo-20261023-b66a1a6f — safeword-private: gate workflow and YUMA on Sentinel
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-10-08T22:41:36.413Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-10-23T18:37:40.701Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** safeword (SafeWord, infra)
 
@@ -17,7 +17,10 @@ Nothing.
 
 ### In flight
 
-Nothing in flight.
+| Order | Project | State | Title | Updated |
+|---|---|---|---|---|
+| `wo-20261023-4ab6622f` | safeword | drafted | Autorotation step 1: schema and row classification | 2026-10-23 |
+| `wo-20261022-11ddbd09` | safeword | blocked | Autonomous rotation: requirements spec | 2026-10-22 |
 
 ### Receipts
 
@@ -29,7 +32,8 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-10-23 `wo-20261023-b66a1a6f` **safeword-private: gate workflow and YUMA on Sentinel** (safeword) — [duke-of-beans/safeword-private#3](https://github.com/duke-of-beans/safeword-private/pull/3) · merged, checks green
 - 2026-10-08 `wo-20261008-9019e274` **Unplanned: backlog: stale plaintext aa_api_key in funding_config (key already in SafeWord)** (safeword) — [duke-of-beans/safeword-private#1](https://github.com/duke-of-beans/safeword-private/pull/1) · merged, checks green
 
-<!-- work-orders:recorded wo-20261008-9019e274 -->
+<!-- work-orders:recorded wo-20261008-9019e274 wo-20261023-b66a1a6f -->
 <!-- work-orders:end -->
