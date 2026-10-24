@@ -1,9 +1,20 @@
 name: YUMA Gate
-on: [push, pull_request]
+# Runs on the Sentinel self-hosted runner (label "sentinel"): free, and GitHub-hosted minutes can run out (2026-10-11).
+# push is limited to main: on a PR branch the pull_request event already covers the same commit, so the old
+# `on: [push, pull_request]` ran this job twice per commit. The clone lives in RUNNER_TEMP and is removed first,
+# because a persistent runner would otherwise fail `git clone` on the second run ("destination path exists").
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: yuma-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   yuma:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, sentinel]
     steps:
       - uses: actions/checkout@v4
 
@@ -13,10 +24,11 @@ jobs:
           node-version: '22'
 
       - name: Clone YUMA
+        env:
+          YUMA_PAT: ${{ secrets.YUMA_PAT }}
         run: |
-          git clone --depth 1 \
-            https://x-access-token:${{ secrets.YUMA_PAT }}@github.com/duke-of-beans/yuma.git \
-            /tmp/yuma
+          rm -rf "$RUNNER_TEMP/yuma"
+          git clone --depth 1 "https://x-access-token:${YUMA_PAT}@github.com/duke-of-beans/yuma.git" "$RUNNER_TEMP/yuma"
 
       - name: Run YUMA gate
-        run: node /tmp/yuma/dist/index.js --root ${{ github.workspace }}
+        run: node "$RUNNER_TEMP/yuma/dist/index.js" --root "${{ github.workspace }}"
