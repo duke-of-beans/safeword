@@ -1,13 +1,13 @@
 # SafeWord — STATUS
 
 Status: infra
-Last Updated: 2026-11-16
-Last Recorded: wo-20261107-8f52884d — Yokoten: worker error fix from gregore
+Last Updated: 2026-11-17
+Last Recorded: wo-20261115-d86e80f8 — Yokoten: worker error fix from gregore
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-16T22:27:38.186Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-17T02:17:53.030Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** safeword (SafeWord, infra)
 
@@ -22,7 +22,6 @@ _Generated 2026-11-16T22:27:38.186Z from the work-order store. Done means verifi
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
-| `wo-20261115-d86e80f8` | safeword | blocked | Yokoten: worker error fix from gregore | 2026-11-16 |
 | `wo-20261105-f252f862` | safeword | drafted | Yokoten: worker error fix from gregore | 2026-11-05 |
 | `wo-20261104-30483335` | safeword | drafted | Yokoten: worker error fix from gregore | 2026-11-04 |
 | `wo-20261104-6f4a7ee2` | safeword | drafted | Yokoten: worker error fix from gregore | 2026-11-04 |
@@ -43,6 +42,7 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-11-17 `wo-20261115-d86e80f8` **Yokoten: worker error fix from gregore** (safeword) — [duke-of-beans/safeword-private#13](https://github.com/duke-of-beans/safeword-private/pull/13) · merged, checks green
 - 2026-11-16 `wo-20261107-8f52884d` **Yokoten: worker error fix from gregore** (safeword) — [duke-of-beans/safeword#9](https://github.com/duke-of-beans/safeword/pull/9) · merged, checks green
 - 2026-11-15 `wo-20261115-cea6b765` **SafeWord P1b: Postgres store adapter for the engine** (safeword) — [duke-of-beans/safeword-private#12](https://github.com/duke-of-beans/safeword-private/pull/12) · merged, checks green
 - 2026-11-13 `wo-20261113-c05d4894` **knowledge: 1Password Families live, vaults and Brave import** (safeword) — [duke-of-beans/ops-context#157](https://github.com/duke-of-beans/ops-context/pull/157) · merged, checks green
@@ -52,5 +52,5 @@ None.
 - 2026-10-30 `wo-20261030-66490c8b` **Knowledge write: SafeWord autonomy settings default off; browser acquisition of issuer keys** (safeword) — [duke-of-beans/ops-context#118](https://github.com/duke-of-beans/ops-context/pull/118) · merged, checks green
 - 2026-10-30 `wo-20261030-58d2bf85` **Knowledge write: SafeWord area file (federation intent, current state)** (safeword) — [duke-of-beans/ops-context#117](https://github.com/duke-of-beans/ops-context/pull/117) · merged, checks green
 
-<!-- work-orders:recorded wo-20261030-00a302c6 wo-20261030-58d2bf85 wo-20261030-59446a70 wo-20261030-66490c8b wo-20261030-7f9e2c1a wo-20261107-8f52884d wo-20261113-c05d4894 wo-20261115-cea6b765 -->
+<!-- work-orders:recorded wo-20261030-00a302c6 wo-20261030-58d2bf85 wo-20261030-59446a70 wo-20261030-66490c8b wo-20261030-7f9e2c1a wo-20261107-8f52884d wo-20261113-c05d4894 wo-20261115-cea6b765 wo-20261115-d86e80f8 -->
 <!-- work-orders:end -->
