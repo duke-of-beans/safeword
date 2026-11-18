@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-11-18
-Last Recorded: wo-20261118-5ca70039 — knowledge: record SafeWord blast-radius rule in ops-context (2026-11-17)
+Last Recorded: wo-20261117-00206b73 — Rotation blast radius: map every home of every key (TESSRYX fork) and never retire an old key until all homes are moved…
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-18T04:14:39.181Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-18T12:19:27.744Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** safeword (SafeWord, infra)
 
@@ -19,7 +19,6 @@ Nothing.
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
-| `wo-20261117-00206b73` | safeword | drafted | Rotation blast radius: map every home of every key (TESSRYX fork) and never retire an old key until all homes are moved and healthy | 2026-11-17 |
 | `wo-20261030-2fa3ed7e` | safeword | in_progress | SafeWord federation spec v0.1 + status corrections | 2026-11-02 |
 
 ### Receipts
@@ -32,6 +31,7 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-11-18 `wo-20261117-00206b73` **Rotation blast radius: map every home of every key (TESSRYX fork) and never retire an old key until all homes are moved and healthy** (safeword) — [duke-of-beans/safeword-private#15](https://github.com/duke-of-beans/safeword-private/pull/15), [duke-of-beans/safeword-private#16](https://github.com/duke-of-beans/safeword-private/pull/16), [duke-of-beans/safeword-private#17](https://github.com/duke-of-beans/safeword-private/pull/17), [duke-of-beans/safeword-private#18](https://github.com/duke-of-beans/safeword-private/pull/18), [duke-of-beans/ganglion-private#97](https://github.com/duke-of-beans/ganglion-private/pull/97), [duke-of-beans/Gregore-private#1013](https://github.com/duke-of-beans/Gregore-private/pull/1013), [duke-of-beans/safeword-private#19](https://github.com/duke-of-beans/safeword-private/pull/19), [duke-of-beans/safeword-private#20](https://github.com/duke-of-beans/safeword-private/pull/20), [duke-of-beans/safeword-private#21](https://github.com/duke-of-beans/safeword-private/pull/21), [duke-of-beans/ganglion-private#102](https://github.com/duke-of-beans/ganglion-private/pull/102), [duke-of-beans/Gregore-private#1018](https://github.com/duke-of-beans/Gregore-private/pull/1018), [duke-of-beans/safeword-private#22](https://github.com/duke-of-beans/safeword-private/pull/22), [duke-of-beans/ganglion-private#103](https://github.com/duke-of-beans/ganglion-private/pull/103), [duke-of-beans/ganglion-private#105](https://github.com/duke-of-beans/ganglion-private/pull/105) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-5ca70039` **knowledge: record SafeWord blast-radius rule in ops-context (2026-11-17)** (safeword) — [duke-of-beans/ops-context#177](https://github.com/duke-of-beans/ops-context/pull/177) · merged, checks green
 - 2026-11-17 `wo-20261117-38f10c1d` **Fleet machine identity: short-lived per-machine credential with a fallback table (bops runner identity pattern)** (safeword) — [duke-of-beans/safeword-private#14](https://github.com/duke-of-beans/safeword-private/pull/14) · merged, checks green
 - 2026-11-17 `wo-20261115-d86e80f8` **Yokoten: worker error fix from gregore** (safeword) — [duke-of-beans/safeword-private#13](https://github.com/duke-of-beans/safeword-private/pull/13) · merged, checks green
@@ -39,5 +39,5 @@ None.
 - 2026-11-15 `wo-20261115-cea6b765` **SafeWord P1b: Postgres store adapter for the engine** (safeword) — [duke-of-beans/safeword-private#12](https://github.com/duke-of-beans/safeword-private/pull/12) · merged, checks green
 - 2026-11-13 `wo-20261113-c05d4894` **knowledge: 1Password Families live, vaults and Brave import** (safeword) — [duke-of-beans/ops-context#157](https://github.com/duke-of-beans/ops-context/pull/157) · merged, checks green
 
-<!-- work-orders:recorded wo-20261107-8f52884d wo-20261113-c05d4894 wo-20261115-cea6b765 wo-20261115-d86e80f8 wo-20261117-38f10c1d wo-20261118-5ca70039 -->
+<!-- work-orders:recorded wo-20261107-8f52884d wo-20261113-c05d4894 wo-20261115-cea6b765 wo-20261115-d86e80f8 wo-20261117-00206b73 wo-20261117-38f10c1d wo-20261118-5ca70039 -->
 <!-- work-orders:end -->
