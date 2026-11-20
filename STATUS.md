@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-11-20
-Last Recorded: wo-20261120-6307a047 — Machine identity ORD-1: credential_machines schema + seed rows (Sentinel, G7, Furnace)
+Last Recorded: wo-20261120-1acb0db3 — Machine identity ORD-2: machine-identity client + identity.mint route in CORTEX on Sentinel
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-20T09:29:14.346Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-20T20:35:14.589Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** safeword (SafeWord, infra)
 
@@ -19,7 +19,6 @@ _Generated 2026-11-20T09:29:14.346Z from the work-order store. Done means verifi
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
-| `wo-20261120-1acb0db3` | safeword | drafted | Machine identity ORD-2: machine-identity client + identity.mint route in CORTEX on Sentinel | 2026-11-20 |
 | `wo-20261118-dd1ac1ba` | safeword | drafted | Remove retired openrouter-api-key from its remaining homes | 2026-11-18 |
 | `wo-20261030-2fa3ed7e` | safeword | in_progress | SafeWord federation spec v0.1 + status corrections | 2026-11-02 |
 
@@ -33,6 +32,7 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-11-20 `wo-20261120-1acb0db3` **Machine identity ORD-2: machine-identity client + identity.mint route in CORTEX on Sentinel** (safeword) — [duke-of-beans/safeword-private#26](https://github.com/duke-of-beans/safeword-private/pull/26) · merged, checks green
 - 2026-11-20 `wo-20261120-6307a047` **Machine identity ORD-1: credential_machines schema + seed rows (Sentinel, G7, Furnace)** (safeword) — [duke-of-beans/safeword-private#25](https://github.com/duke-of-beans/safeword-private/pull/25) · merged, checks green
 - 2026-11-18 `wo-20261118-485d6773` **Discovery locators: POSIX paths stay absolute** (safeword) — [duke-of-beans/safeword-private#24](https://github.com/duke-of-beans/safeword-private/pull/24) · merged, checks green
 - 2026-11-18 `wo-20261118-42cdf4f2` **Discovery write path: credential_homes vocabulary + live write scans on every host** (safeword) — [duke-of-beans/safeword-private#23](https://github.com/duke-of-beans/safeword-private/pull/23), [duke-of-beans/ops-context#184](https://github.com/duke-of-beans/ops-context/pull/184) · merged, checks green
@@ -45,5 +45,5 @@ None.
 - 2026-11-15 `wo-20261115-cea6b765` **SafeWord P1b: Postgres store adapter for the engine** (safeword) — [duke-of-beans/safeword-private#12](https://github.com/duke-of-beans/safeword-private/pull/12) · merged, checks green
 - 2026-11-13 `wo-20261113-c05d4894` **knowledge: 1Password Families live, vaults and Brave import** (safeword) — [duke-of-beans/ops-context#157](https://github.com/duke-of-beans/ops-context/pull/157) · merged, checks green
 
-<!-- work-orders:recorded wo-20261107-8f52884d wo-20261113-c05d4894 wo-20261115-cea6b765 wo-20261115-d86e80f8 wo-20261117-00206b73 wo-20261117-38f10c1d wo-20261118-2b0a6d41 wo-20261118-42cdf4f2 wo-20261118-485d6773 wo-20261118-5ca70039 wo-20261120-6307a047 -->
+<!-- work-orders:recorded wo-20261107-8f52884d wo-20261113-c05d4894 wo-20261115-cea6b765 wo-20261115-d86e80f8 wo-20261117-00206b73 wo-20261117-38f10c1d wo-20261118-2b0a6d41 wo-20261118-42cdf4f2 wo-20261118-485d6773 wo-20261118-5ca70039 wo-20261120-1acb0db3 wo-20261120-6307a047 -->
 <!-- work-orders:end -->
