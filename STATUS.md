@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-11-25
-Last Recorded: wo-20261122-29bdd833 — Backlog: rotate four keys found in .env backups on GitHub
+Last Recorded: wo-20261125-5647289f — Yokoten: missing spec fix from cloud-lane-scratch
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-25T21:38:57.141Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-25T23:49:15.562Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** safeword (SafeWord, infra)
 
@@ -19,7 +19,6 @@ Nothing.
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
-| `wo-20261125-5647289f` | safeword | drafted | Yokoten: missing spec fix from cloud-lane-scratch | 2026-11-25 |
 | `wo-20261123-4338b656` | safeword | drafted | Rotate the GitHub classic PAT (github-pat): plaintext copy found in a past chat | 2026-11-23 |
 | `wo-20261118-dd1ac1ba` | safeword | drafted | Remove retired openrouter-api-key from its remaining homes | 2026-11-18 |
 
@@ -33,6 +32,7 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-11-25 `wo-20261125-5647289f` **Yokoten: missing spec fix from cloud-lane-scratch** (safeword) — [duke-of-beans/safeword#21](https://github.com/duke-of-beans/safeword/pull/21) · merged, checks green
 - 2026-11-25 `wo-20261122-29bdd833` **Backlog: rotate four keys found in .env backups on GitHub** (safeword) — [duke-of-beans/safeword-private#27](https://github.com/duke-of-beans/safeword-private/pull/27), [duke-of-beans/ops-context#242](https://github.com/duke-of-beans/ops-context/pull/242) · merged, checks green
 - 2026-11-23 `wo-20261122-1e7216f9` **Host the SafeWord broker (P1): safeword-broker Edge Function** (safeword) — [duke-of-beans/safeword-private#28](https://github.com/duke-of-beans/safeword-private/pull/28) · merged, checks green
 - 2026-11-22 `wo-20261120-8e5e5ca0` **Machine identity ORD-3/4/5: roll the client out to Sentinel, then Furnace, then G7 (dual-run, .env untouched)** (safeword) — [duke-of-beans/ganglion-private#169](https://github.com/duke-of-beans/ganglion-private/pull/169) · merged, checks green, deployed
@@ -49,5 +49,5 @@ None.
 - 2026-11-15 `wo-20261115-cea6b765` **SafeWord P1b: Postgres store adapter for the engine** (safeword) — [duke-of-beans/safeword-private#12](https://github.com/duke-of-beans/safeword-private/pull/12) · merged, checks green
 - 2026-11-13 `wo-20261113-c05d4894` **knowledge: 1Password Families live, vaults and Brave import** (safeword) — [duke-of-beans/ops-context#157](https://github.com/duke-of-beans/ops-context/pull/157) · merged, checks green
 
-<!-- work-orders:recorded wo-20261107-8f52884d wo-20261113-c05d4894 wo-20261115-cea6b765 wo-20261115-d86e80f8 wo-20261117-00206b73 wo-20261117-38f10c1d wo-20261118-2b0a6d41 wo-20261118-42cdf4f2 wo-20261118-485d6773 wo-20261118-5ca70039 wo-20261120-1acb0db3 wo-20261120-6307a047 wo-20261120-8e5e5ca0 wo-20261122-1e7216f9 wo-20261122-29bdd833 -->
+<!-- work-orders:recorded wo-20261107-8f52884d wo-20261113-c05d4894 wo-20261115-cea6b765 wo-20261115-d86e80f8 wo-20261117-00206b73 wo-20261117-38f10c1d wo-20261118-2b0a6d41 wo-20261118-42cdf4f2 wo-20261118-485d6773 wo-20261118-5ca70039 wo-20261120-1acb0db3 wo-20261120-6307a047 wo-20261120-8e5e5ca0 wo-20261122-1e7216f9 wo-20261122-29bdd833 wo-20261125-5647289f -->
 <!-- work-orders:end -->
